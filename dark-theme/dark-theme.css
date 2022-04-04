@@ -2,3 +2,8 @@
 
 /* you need to implement styles for your dark and your light theme */
 /* which will be the default? up to you */
+
+
+html{
+    background-color: white;
+}
