@@ -1,3 +1,56 @@
-/* don't forget your reset! */
-/* the visibility of your modal is based in CSS */
-/* it would be easier to get the html and css looking right for both first, then set the modal to be hidden */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#modal-button{
+    background-color: beige;
+}
+
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-container.modal-on{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+.modal {
+    background-color: white;
+    padding: 30px 50px;
+    padding-top: 5px;
+    text-align: center;
+    max-width: 100%;
+    width: 600px;
+}
+
+.button-container{
+    width: 600px;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 45px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+/* .modal button{
+    background-color: white;
+    border: none;
+} */
