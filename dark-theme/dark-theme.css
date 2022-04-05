@@ -3,7 +3,12 @@
 /* you need to implement styles for your dark and your light theme */
 /* which will be the default? up to you */
 
-
-html{
+.light-mode{
     background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
 }

@@ -3,11 +3,6 @@
 
 
 
-// const lightMode = () => {
-//     const background = document.querySelector('html');
-//     background.style.color = 'black'
-//     background.style.backgroundColor = 'white'
-// };
 
 
 document.getElementById('mode-button').onclick = function() {
@@ -15,9 +10,8 @@ document.getElementById('mode-button').onclick = function() {
 };
 
 const darkMode = () => {
-    const background = document.querySelector('html');
-    background.style.color = 'white'
-    background.style.backgroundColor = 'black'
+    const body = document.querySelector('body');
+    body.setAttribute('class', 'dark-mode')
     const button = document.getElementById('mode-button')
     button.innerText = 'Light Mode'
     button.onclick = function(){
@@ -27,9 +21,8 @@ const darkMode = () => {
 
 
 const lightMode = () => {
-    const background = document.querySelector('html');
-    background.style.color = 'black'
-    background.style.backgroundColor = 'white'
+    const body = document.querySelector('body');
+    body.setAttribute('class', 'light-mode')
     const button = document.getElementById('mode-button')
     button.innerText = 'Dark Mode'
     button.onclick = function(){
