@@ -10,7 +10,14 @@ body{
 }
 
 #modal-button{
-    background-color: beige;
+    background-color: #B0E0E6;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .modal-container{
@@ -32,7 +39,9 @@ body{
 
 
 .modal {
-    background-color: white;
+    background-color:#cfe2f3;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
     padding: 30px 50px;
     padding-top: 5px;
     text-align: center;
